@@ -1,13 +1,18 @@
-<!-- Create php script which create function having choice and string as
-parameter and perform following task on string based on choice. The
-function should return the answer.
-1. Reverse the string.
-2. Count the length of the string
-3. Display the first word of the string.
-4. Display last five words from the string.
-5. Display characters from position 5 to 15 from the string -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>P4_3</h1>
+</body>
+</html>
 <?php
  $str="Hold the Vision Trust the Process";
+ echo "<h2>$str</h2>";  
  echo "1. Reverse the string==" . strrev($str). "<br>";
  echo "2. Count the length of the string==".strlen($str). "<br>";
  echo "3. Display the first word of the string==".$str[0]. "<br>";

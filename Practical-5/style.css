@@ -1,0 +1,15 @@
+.main{
+    background-origin: padding-box;
+    padding: auto;
+    text-align: center;
+    border-style: dotted;
+    background-color:aquamarine;
+    
+}
+.label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding: 0cm;
+    
+
+}

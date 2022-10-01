@@ -1,0 +1,7 @@
+PHP provides various functions to read data from file. There are different functions that allow you to read all file data, read data line by line and read data character by character.
+
+The available PHP file read functions are given below.
+
+fread()
+fgets()
+fgetc()

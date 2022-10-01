@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p1</title>
+</head>
+<body>
+    <form action="p1.php" method="post" enctype="multipart/form-data">
+        Select The ExamNo:<input type="number" name="examno" id="" required> <br> <br>
+        Select the Course:<select name="course" id="" required>
+            <option value="MCA">MCA</option>    
+            <option value="BCA">BCA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Com">B.Com</option>
+        </select><br><br>
+        Marks:<br><br>
+        
+        Subject-1  <input type="number" name="sub1" id="" required><br><br>
+        Subject-2  <input type="number" name="sub2" id="" required><br><br>
+        Subject-3  <input type="number" name="sub3" id="" required><br><br>
+        Subject-4  <input type="number" name="sub4" id="" required><br><br>
+        Subject-5  <input type="number" name="sub5" id="" required><br><br>
+
+        Upload Student Photo : <input type="file" name="stud" id="" required><br> <br>
+
+        <input type="submit" value="Submit" name="submit">
+       <br><br> Note:
+        <p>
+        <ol type="1">
+        <li>File Size not more than 25KB</li>
+        <li>Only Allow JPEG extension Photo</li>
+        </ol>
+        </p>
+
+
+    </form>
+</body>
+</html>
